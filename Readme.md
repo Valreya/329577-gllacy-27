@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Валентина Зыкова](https://up.htmlacademy.ru/htmlcss/27/user/329577).
-* Наставник: [Анна Лисененкова}(https://htmlacademy.ru/profile/ankhena).
+* Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
 
 ---
 
