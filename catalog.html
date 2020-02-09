@@ -12,14 +12,82 @@
 						<img src="#" alt="Логотип Gllacy">
 					</a>
 		 			<ul class="navigation">
-						<li class="navigation-item"><a href="catalog.html">Каталог</a></li>
+						<li class="navigation-item main-catalog">
+              <a href="catalog.html">Каталог</a>
+              <!-- <ul class="main-catalog-list">
+                <li><a href="#">Новинки</a></li>
+                <li><a href="catalog.html">Сливочное</a></li>
+                <li><a href="#">Щербеты</a></li>
+                <li><a href="#">Фруктовый лед</a></li>
+                <li><a href="#">Мелорин</a></li>
+              </ul> -->
+            </li>
 						<li class="navigation-item"><a href="#">Доставка и оплата</a></li>
 						<li class="navigation-item"><a href="#">О Компании</a></li>
 					</ul>
 					<div class="control-panel">
-				    <div class="control-btn"><a href="#">Поиск</a></div>
-				    <div class="control-btn"><a href="#">Вход</a></div>
-				    <div class="control-btn"><a href="#">Пусто</a></div>
+				    <div class="control-btn">
+              <a href="#">Поиск</a>
+              <!-- <div class="form-search">
+                <div class="form-search-field">
+                  <input id="search" type="text" name="search"><label for="search">Что ищем?</label>
+                </div>
+              </div> -->
+            </div>
+				    <div class="control-btn">
+              <a href="#">Вход</a>
+              <!-- <div class="form-login-wrap">
+                <form class="form-login">
+                  <div class="form-login-field">
+                    <input id="login" type="email" name="login"><label for="login">Электронная почта</label>
+                  </div>
+                  <div class="form-login-field">
+                    <input id="password" type="password" name="password"><label for="password">Пароль</label>
+                  </div>
+                  <input class="btn" type="submit" value="Войти">
+                  <div class="form-login-linkss">
+                    <a class="login-question" href="#">Забыли пароль?</a>
+                    <a class="login-question" href="#">Новая регистрация</a>
+                  </div>
+                </form>
+              </div> -->
+            </div>
+				    <div class="control-btn">
+              <a href="#">2 товара</a>
+              <!--<div class="form-basket">
+              <div class="basket-item">
+                <button class="basket-item-delete"></button>
+                <div class="basket-item-title">            
+                  <img src="№" width="33" height="33" alt="Пломбир с апельсиновым джемом">
+                  Пломбир с апельсиновым джемом
+                </div>
+                <div class="basket-item-count">
+                  1,5 кг x <span class="cost-per-kg">200 руб.</span>
+                </div>
+                <div class="basket-item-worth">
+                  300 руб.
+                </div>
+              </div>
+              <div class="basket-item">
+                <button class="basket-item-delete"></button>
+                <div class="basket-item-title">            
+                  <img src="№" width="33" height="33" alt="Клубничный пломбир с присыпкой из белого шоколада">
+                  Клубничный пломбир с присыпкой из белого шоколада
+                </div>
+                <div class="basket-item-count">
+                  1,5 кг x <span class="cost-per-kg">300 руб.</span>
+                </div>
+                <div class="basket-item-worth">
+                  450 руб.
+                </div>
+              </div>
+              <div class="total">
+                Итого: 750 руб.
+              </div>
+              <div class="clearfix"></div>
+              <a class="btn" href="#">Оформить заказ</a> -->
+            </div>
+            </div>
 				  </div>
  			  </nav>
  	    </header>
@@ -35,6 +103,49 @@
 	          			<li>Сливочное</li>
         		</ul>
       		</nav>
+          <h1>Сливочное мороженое</h1>
+          <form class="filters" action="#" method="get">
+            <div class="filters-label">
+              <div class="filter-title">Сортировка:</div>
+              <div class="wrap-select-sort">
+                <select name="sort">
+                  <option value="popular">по популярности</option>
+                  <option value="up">сначала недорогие</option>
+                  <option value="down">сначала дорогие</option>
+                  <option value="fat">по жирности</option>
+                </select>
+              </div>
+            </div>
+            <div class="filters-label">
+              <div class="filter-title">Цена: 100 руб. – 500 руб.</div>
+              <div class="filter-cost">
+                <div class="scale"></div>
+                <div class="bar"></div>
+                <div class="range-toggle"></div>
+                <div class="range-toggle"></div>
+              </div>
+            </div>
+            <fieldset>
+              <legend class="filter-title">Жирность:</legend>
+              <ul class="container-buttons">
+                <li><input id="fat-0" type="radio" name="fat" value="0"><label for="fat-0">0%</label></li>
+                <li><input id="fat-<10" type="radio" name="fat" value="<10" checked><label for="fat-<10">до 10%</label></li>
+                <li><input id="fat-<30" type="radio" name="fat" value="<30"><label for="fat-<30">до 30%</label></li>
+                <li><input id="fat->30" type="radio" name="fat" value=">30"><label for="fat->30">выше 30%</label></li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend class="filter-title">Наполнители:</legend>
+              <ul class="container-buttons">
+                <li><input id="chocolate" type="checkbox" name="sugar" value="chocolate" checked><label for="chocolate">шоколадные</label></li>
+                <li><input id="sugar" type="checkbox" name="sugar" value="sugar" checked><label for="sugar">сахарные присыпки</label></li>
+                <li><input id="fruit" type="checkbox" name="sugar" value="fruit"><label for="fruit">фрукты</label></li>
+                <li><input id="syrop" type="checkbox" name="sugar" value="syrop"><label for="syrop">сиропы</label></li>
+                <li><input id="jam" type="checkbox" name="sugar" value="jam"><label for="jam">джемы</label></li>
+              </ul>
+            </fieldset>
+            <input class="btn-filter" type="submit" value="Применить">
+          </form>
       		<div class="catalog">
       			<ul class="main-catalog">
       				<li class="catalog-item">
@@ -157,7 +268,7 @@
         </div>
         <div class="footer-navigation">
           <ul class="footer-navigation-list">
-            <li><img src="#"><a class="footer-navigation-btn" href="#">Для поставщиков</a></li>
+            <li><a class="footer-navigation-btn" href="#">Для поставщиков</a></li>
             <li><a class="footer-navigation-btn" href="#">О производстве</a></li>
             <li><a class="footer-navigation-btn" href="#">Наши документы</a></li>
             <li><a class="footer-navigation-btn" href="#">Экологические стандарты</a></li>
