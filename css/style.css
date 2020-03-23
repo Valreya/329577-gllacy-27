@@ -37,6 +37,7 @@ body {
   position: relative;
   top: 9px;
   width: 154px;
+  flex-shrink: 0;
 }
 
 .navigation {
@@ -83,6 +84,7 @@ body {
 .navigation-item {
     padding: 7px 14px;
     border-radius: 20px;
+    flex-shrink: 0;
 }
 
 .header-catalog {
@@ -194,7 +196,6 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-left: 300px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   font-size: 16px;
@@ -204,6 +205,8 @@ body {
   margin-right: 10px;
   font-size: 14px;
   line-height: 16px;
+  flex-shrink: 0;
+
 }
 
 .control-btn:last-child {
@@ -922,10 +925,14 @@ body {
   width: 267px;
   min-height: 300px;
   text-align: center;
-  padding: 0 9px;
+  padding: 0 25px 0 0;
   border-radius: 5px;
   margin-bottom: -50px;
   padding-bottom: 75px;
+}
+
+.catalog-item:nth-child(4n) {
+  padding-right: 0
 }
 
 
@@ -941,7 +948,7 @@ body {
 
 .item-price {
     position: absolute;
-    top: 200px;
+    top: 210px;
     font-weight: 700;
     text-align: left;
 }
