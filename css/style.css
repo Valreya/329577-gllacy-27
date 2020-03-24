@@ -1760,11 +1760,15 @@ display: none;
   height: 31px;
   position: relative;
   line-height: 31px;
-  border-radius: 50%;
   color: transparent;
   text-shadow: none;
   margin-right: 5px;
+    border-radius: 50%;
+}
+
+.social-btn svg {
   border: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
 
 .footer-navigation {
@@ -1781,7 +1785,7 @@ display: none;
   text-decoration: none;
 }
 
-.footer-navigation a:hover {
+.social-btn:hover svg {
   color: #ffbc9e;
   border-bottom: 1px solid #a7a294;
 }
