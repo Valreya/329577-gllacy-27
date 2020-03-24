@@ -49,7 +49,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     width: 65%;
-    padding-top: 4px;
+    padding-top: 3px;
     padding-bottom: 22px;
     margin-left: 10px;
     padding-left: 0;
@@ -183,7 +183,7 @@ body {
 
 .control-panel{
   position: relative;
-  top: 22px;
+  top: 21px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -617,7 +617,7 @@ body {
 
 .slider {
   position: relative;
-  padding-top: 260px;
+  padding-top: 278px;
   text-align: center;
   color: #ffffff;
 }
@@ -789,7 +789,7 @@ body {
   font-size: 35px;
   line-height: 41px;
   font-weight: 700;
-  padding: 16px 0 0 16px;
+  padding: 15px 0 0 16px;
 }
 
 .promo-raspberry p,
@@ -875,6 +875,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-left: 15px;
 }
 
 
@@ -909,26 +910,15 @@ body {
   position: relative;
   margin-bottom: 38px;
   width: 25%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 267px;
   min-height: 300px;
   text-align: center;
-  padding: 0 16px;
+  padding: 0 13px;
   border-radius: 5px;
   margin-bottom: -50px;
   padding-bottom: 67px;
 }
+
 .catalog-item:nth-child(4n) {
   padding-right: 0;
 }
@@ -946,7 +936,7 @@ body {
 
 .item-price {
     position: absolute;
-    top: 210px;
+    top: 205px;
     font-weight: 700;
     text-align: left;
 }
@@ -1687,7 +1677,7 @@ body {
   top: 0;
   right: 0;
   width: 245px;
-  margin-top: 60px;
+  margin-top: 62px;
   margin-right: 27px;
   background-color: #ffffff;
   border-radius: 16px;
