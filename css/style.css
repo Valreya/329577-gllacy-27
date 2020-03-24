@@ -785,7 +785,7 @@ body {
 .promo-raspberry h2,
 .promo-choko h2 {
   color: #ffffff;
-  margin: 0 0 10px 0;
+  margin: 0 0 8px 0;
   font-size: 35px;
   line-height: 41px;
   font-weight: 700;
@@ -1505,16 +1505,18 @@ body {
   background-image: url("../img/vafl_fon.jpg");
   border-radius: 16px;
   color: #323232;
-  position: relative;
 }
 
 .advantages ul {
   -webkit-column-count: 2;
      -moz-column-count: 2;
           column-count: 2;
+  margin: 0;
+  padding: 0 15px 10px 20px;
 }
 
 .advantages li {
+  display: inline-block;
   list-style-type: none;
   font-size: 16px;
   line-height: 22px;
@@ -1523,29 +1525,34 @@ body {
   padding-right: 20px;
   position: relative;
   margin: 0;
+  padding: 9px 0 13px 60px;
+  position: relative;
+
 }
 
 .advantages p {
   font-size: 24px;
   line-height: 30px;
-  padding: 30px 0 0 21px;
+  padding: 26px 0 0 21px;
+  padding-bottom: 0;
+  margin-bottom: 9px;
 }
 
 .ice-cream:before {
   position: absolute;
     content: "";
-    top: -20px;
-    left: -17px;
+    top: 0px;
+    left: 0px;
     width: 50px;
     height: 50px;
     background: url("../img/ice-cream.svg") no-repeat 0 0;
 }
 
 .eko:before {
-  position: absolute;
+    position: absolute;
     content: "";
-    top: -15px;
-    left: -15px;
+    top: 0px;
+    left: 0px;
     width: 50px;
     height: 50px;
     background: url("../img/eco.svg") no-repeat 0 0;
@@ -1554,8 +1561,8 @@ body {
 .farm:before {
   position: absolute;
     content: "";
-    top: -15px;
-    left: -15px;
+    top: 0px;
+    left: 0px;
     width: 50px;
     height: 50px;
     background: url("../img/cow.svg") no-repeat 0 0;
@@ -1564,8 +1571,8 @@ body {
 .termo:before {
   position: absolute;
     content: "";
-    top: -15px;
-    left: -15px;
+    top: 0px;
+    left: 0px;
     width: 50px;
     height: 50px;
     background: url("../img/thermometer.svg") no-repeat 0 0;
@@ -1577,7 +1584,7 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .blog-post {
