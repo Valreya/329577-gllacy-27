@@ -229,7 +229,7 @@ body {
     fill: #ffffff;
 }
 
-.search-btn a:hover {
+.search-btn:hover a {
   background: rgba(255, 255, 255, 1);
 }
 
@@ -273,16 +273,16 @@ body {
 .login-btn  {
   position: relative;
   vertical-align: top;
-  width: 93px;
-  height: 33px;
-  line-height: 33px;
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.2);
+  
 }
 
 .login-btn a {
   text-decoration: none;
   color: #ffffff;
+  padding: 8px 12px;
+  line-height: 33px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .login-btn svg {
@@ -293,10 +293,10 @@ body {
 }
 
 .login-btn span {
-  margin-left: 45px;
+  margin-left: 35px;
 }
 
-.login-btn:hover {
+.login-btn:hover a {
   background: rgba(255, 255, 255, 1);
 }
 .login-btn:hover span {
@@ -967,9 +967,12 @@ body {
 
 .item-btn {
   position: absolute;
+  min-width: 170px;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 20px;
   z-index: 5;
-  padding: 10px 21px 10px 21px;
+  padding: 11px 21px 10px 21px;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
