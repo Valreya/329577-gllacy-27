@@ -1756,14 +1756,15 @@ display: none;
 .social-btn {
   display: inline-block;
   vertical-align: top;
-  width: 31px;
-  height: 31px;
+  width: 32px;
+  height: 32px;
   position: relative;
   line-height: 31px;
   color: transparent;
   text-shadow: none;
   margin-right: 5px;
   border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.5);
 }
 
 
@@ -1806,26 +1807,10 @@ display: none;
   color: #ffffff;
 }
 
-.social-btn svg:hover {
-  border: 3px solid rgba(255, 255, 255, 0.6)
-}
-
-.social-btn svg:active {
-  border: 3px solid rgba(255, 255, 255, 0.8)
-}
-
 .social-btn svg {
-  position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%,-50%);
-            -ms-transform: translate(-50%,-50%);
-        transform: translate(-50%,-50%);
-    fill: #ffffff;
+  fill: #ffffff;
     opacity: 0.8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-      border: 3px solid rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
 }
 
 .social-btn:hover svg {
