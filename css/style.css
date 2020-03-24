@@ -1,5 +1,3 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
 body {
   font-size: 18px;
   line-height: 1.2;
@@ -208,6 +206,10 @@ body {
   display: inline-block;
   position: relative;
   vertical-align: top;
+ }
+
+.search-btn a {
+  display: block;
   width: 33px;
   height: 33px;
   line-height: 33px;
@@ -219,7 +221,7 @@ body {
 
 .search-btn svg {
   position: absolute;
-    top: 50%;
+    top: 17%;
     left: 50%;
     -webkit-transform: translate(-50%,-50%);
             -ms-transform: translate(-50%,-50%);
@@ -238,7 +240,6 @@ body {
 .form-search {
     display: none;
 }
-
 
 .search-btn:hover .form-search {
   display: block;
@@ -1174,6 +1175,10 @@ body {
     background-image: url("../img/icon-down-dir.svg");
 }
 
+.sorting select::-ms-expand {
+display: none;
+}
+
 .price-select legend {
     margin-left: 15px;
     font-size: 14px;
@@ -1525,7 +1530,7 @@ body {
   padding-right: 20px;
   position: relative;
   margin: 0;
-  padding: 9px 0 13px 60px;
+  padding: 12px 0 13px 60px;
   position: relative;
 
 }
@@ -1683,7 +1688,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  width: 245px;
+  width: 240px;
   margin-top: 62px;
   margin-right: 27px;
   background-color: #ffffff;
