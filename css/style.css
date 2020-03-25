@@ -861,15 +861,6 @@ body {
       flex-wrap: wrap;
 }
 
-.main-catalog {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  list-style:none;
-  padding-left: 30px;
-}
 
 .index-catalogue ul {
   display: -webkit-inline-box;
@@ -909,6 +900,17 @@ body {
   margin: 0;
 }
 
+
+.main-catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style:none;
+  padding-left: 13px;
+}
+
 .catalog-item {
   position: relative;
   margin-bottom: 38px;
@@ -918,7 +920,7 @@ body {
   text-align: center;
   padding: 0 13px;
   border-radius: 5px;
-  margin-bottom: -50px;
+  margin-bottom: -43px;
   padding-bottom: 67px;
 }
 
@@ -1683,15 +1685,6 @@ display: none;
   margin-bottom: 23px;
 }
 
-.map:before {
-  position: absolute;
-    content: "";
-    top: 135px;
-    left: 265px;
-    width: 100px;
-    height: 150px;
-    background: url("../img/pin.svg") no-repeat 0 0;
-}
 
 /* Карта */
 
@@ -1702,7 +1695,7 @@ display: none;
   height: 430px;
   margin: 0 auto;
   margin-top: 40px;
-  margin-bottom: 18px;
+  margin-bottom: 33px;
   background-color: #e9e1c2;
 }
 
@@ -1773,6 +1766,17 @@ display: none;
   margin: 20px 25px 7px 5px;
 }
 
+
+.map:before {
+  position: absolute;
+    content: "";
+    top: 135px;
+    left: 265px;
+    width: 100px;
+    height: 150px;
+    background: url("../img/pin.svg") no-repeat 0 0;
+}
+
 /* Футер */
 
 .footer {
@@ -1789,11 +1793,11 @@ display: none;
   padding: 0;
 }
 
-.footer-navigation-list li {
+.footer-navigation li {
     list-style: none;
 }
 
-.footer-navigation-list a {
+.footer-navigation a {
     color: #ffffff;
 }
 
@@ -1816,18 +1820,23 @@ display: none;
   line-height: 31px;
   color: transparent;
   text-shadow: none;
-  margin-right: 5px;
+  margin-right: 7px;
   border-radius: 50%;
   border: 3px solid rgba(255, 255, 255, 0.5);
 }
 
 
-.footer-navigation {
+.footer-navigation  {
   width: 500px; 
   display: -webkit-inline-box; 
   display: -ms-inline-flexbox; 
   display: inline-flex;
   font-size: 16px;
+  padding-left: 20px;
+}
+
+.footer-navigation ul {
+  margin-right: 20px;
 }
 
 .footer-navigation a {
@@ -1879,6 +1888,15 @@ display: none;
 
 .footer-copyright {
   font-size: 12px;
+  margin-left: 2px;
+}
+
+.footer-copyright img {
+  margin-top: -15px;
+}
+
+.footer-copyright p {
+  margin-top: 2px;
 }
 
 .footer-copyright a {
