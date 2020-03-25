@@ -1832,7 +1832,13 @@ display: none;
 
 .footer-navigation li {
     list-style: none;
-    width: 180px; 
+    width: 165px;
+    box-sizing: border-box;
+    padding-left: 38px;
+}
+
+.footer-navigation li:nth-child(even) {
+  padding-left: 18px;
 }
 
 .footer-navigation a {
@@ -1884,8 +1890,9 @@ display: none;
 
 .footer-copyright {
   font-size: 12px;
-  margin-left: 2px;
+  padding-left: 50px;
   width: 250px;
+  box-sizing: border-box;
 }
 
 .footer-copyright img {
