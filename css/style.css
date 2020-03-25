@@ -1885,6 +1885,7 @@ display: none;
 .footer-copyright {
   font-size: 12px;
   margin-left: 2px;
+  width: 250px;
 }
 
 .footer-copyright img {
