@@ -872,7 +872,6 @@ body {
   margin-left: 15px;
 }
 
-
 .catalog-item img {
   display: block;
   width: 267px;
@@ -1030,6 +1029,7 @@ body {
 
 .catalog-nav {
   text-align: right;
+  margin-top: 43px;
 }
 
 .btn-page {
@@ -1039,14 +1039,14 @@ body {
   list-style-type: none;
   font-size: 16px;
   line-height: 18px;
-
+  padding-left: 20px;
 }
 
 .btn-page a {
   text-decoration: none;
   color: #ffffff;
   cursor: pointer;
-  padding: 5px 10px;
+  padding: 5px 11px;
   border-radius: 50%;
 }
 
@@ -1061,6 +1061,16 @@ body {
   background-color: #ffffff;
   padding: 5px 10px;
   border-radius: 50%;
+}
+
+.first-btn svg {
+  transform: rotate(180deg);
+  opacity: 0.2;
+  fill: #ffffff;
+}
+
+.last-btn svg {
+  fill: #ffffff;
 }
 
 /* Фильтр */
@@ -1828,6 +1838,7 @@ display: none;
   flex-wrap: wrap;
   font-size: 16px;
   padding-left: 20px;
+  margin-top: -5px;
 }
 
 .footer-navigation li {
@@ -1849,7 +1860,6 @@ display: none;
 
 .social-btn:hover svg {
   color: #ffbc9e;
-  border-bottom: 1px solid #a7a294;
 }
 
 .footer-navigation a:active {
