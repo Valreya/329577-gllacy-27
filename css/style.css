@@ -276,7 +276,7 @@ body {
   
 }
 
-.login-btn a {
+.login-btn .entrance-btn {
   text-decoration: none;
   color: #ffffff;
   padding: 8px 12px;
@@ -318,12 +318,11 @@ body {
   left: -180px;
 }
 
-.form-login-links a {
+.form-login-links .login-question {
   margin-left: 25px;
   color: #323232;
   font-size: 13px;
   line-height: 24px;
-  border-bottom: 1px solid #000000;
 }
 
 .form-login-wrap {
@@ -869,6 +868,7 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   list-style:none;
+  padding-left: 30px;
 }
 
 .index-catalogue ul {
@@ -1117,7 +1117,7 @@ body {
         flex-wrap: wrap;
     font-size: 16px;
     line-height: 18px;
-    margin-bottom: 40px;
+    margin-bottom: 26px;
     padding-left: 27px;
     padding-right: 27px;
 }
@@ -1262,7 +1262,7 @@ display: none;
 }
 
 .fat legend {
-    margin-left: 15px;
+    margin-left: 22px;
     margin-bottom: 5px;
     font-size: 14px;
     line-height: 16px;
@@ -1784,8 +1784,17 @@ display: none;
           justify-content: space-between;
 }
 
-.footer-navigation li {
+.footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-navigation-list li {
     list-style: none;
+}
+
+.footer-navigation-list a {
+    color: #ffffff;
 }
 
 .social-media {
